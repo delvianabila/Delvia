@@ -1,0 +1,55 @@
+/* Mengatur tampilan dasar seluruh halaman */
+.profile-pic {
+  width: 150px; /* ukuran foto */
+  height: 150px;
+  border-radius: 50%; /* bikin bulat */
+  object-fit: cover; /* biar nggak gepeng */
+  margin-bottom: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eabcac;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #f7dfd4;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+}
+/* Setiap section diberi jarak */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.607);
+}
+
+/* Projek ditata */
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #a27653;
+}
+h1,
+h2,
+h3 {
+  font-weight: bold; /* Tebal */
+}
+
+p {
+  font-size: 16px;
+  color: #874e4c;
+}
+
+em {
+  font-style: italic; /* Teks miring */
+}
